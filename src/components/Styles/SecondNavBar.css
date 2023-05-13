@@ -1,0 +1,20 @@
+.second-nav{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* z-index: 1000; */
+    top:60px;
+    position: relative;
+}
+.second-nav div a{
+    text-decoration: none;
+    color:white;
+}
+.second-nav div{
+    margin-left: 20px;
+    margin: 10px;
+}

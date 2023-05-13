@@ -1,0 +1,100 @@
+.first-nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:50px;
+    /* flex: 1 1 auto; */
+    background-color: #131921;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logo-image{
+    height:40px;
+    width:80px;
+}
+.cart{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+}
+.iconAndDelivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color:white;
+
+}
+.icon-part a{
+    text-decoration: none;
+}
+.search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-button{
+    background: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search{
+    height: 23px;
+    width: 35px;
+    padding-top: 8px;
+    font-size:20px;
+    /* padding-right: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.select-s{
+    width: 55px; 
+    height: 34px; 
+    background: #F3F3F3;
+}
+.same-size{
+    border: 2px solid #cdcdcd;
+      margin: 0;
+      border-right: .5px solid #cdcdcd;
+}
+.input{
+    border: 2px solid #cdcdcd;
+    border-right: 0;
+    border-left: 0;
+    width: 650px;
+    height: 29px;
+}
+.stupida{
+    text-decoration: none;
+    color: white;
+}
+
+.signin{
+    font-size:15px;
+        display:flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+}
+
+.flagAndLanguage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .returns-orders{
+    font-size: 15px;
+  }

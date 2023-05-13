@@ -1,0 +1,140 @@
+.training-section{
+    /* width: 100%; */
+    background:transparent;
+    position: relative; 
+    top:-295px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    
+    }
+    .item{
+        padding:0 7px;
+    }
+    .itemimage{
+        width: 312px;
+        height:280px;
+
+        /* padding:0 14px; */
+      }
+      .diffitemimage{
+        width: 312px;
+        height:307px;
+      }
+      .t1,.t2,.t3,.t4{
+        margin: 0 10px;
+      width: 325px;
+      height: 430px;
+      background-color: #ffff;
+      display: flex;
+      justify-content: flex-start;
+      /* align-items: center; */
+      flex-direction: column;
+      padding: 0 12px;
+      /* padding-top: -55px; */
+      }
+      .t1 h1,.t2 h1,.t4 h1{
+      font-size: 20.5px;
+      color: #323030;
+      padding-left: 6px;
+      padding-right: 6px;
+    
+      }
+      .t3 h1{
+        font-size: 20.5px;
+        color: #323030;
+        padding-left: 13px;
+        padding-right: 13px;
+      }
+      .caption{
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        /* justify-content:flex-start;
+        align-items: center; */
+        /* padding:12px; */
+      }
+      .cap-caption{
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:flex-end
+
+      }
+      .caption a{
+        text-decoration: none;
+        color:#238495;
+        font-weight:500;
+        font-size:12px
+      }
+
+      .caption button{
+
+            margin-left: auto;
+            /* margin-right: auto; */
+            display: block;
+            background-color: #238495;
+            color: white;
+            font-size: 12px;
+            border: none;
+            padding: 5px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+        
+          .caption button:hover {
+            background-color: #1a666e;
+          }
+
+          .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            justify-items: center;
+            align-items: center;
+            padding: 0 14px;
+            /* margin:0 10px; */
+          }
+          
+          .grid-item {
+            display: flex;
+            flex-direction: column;
+            /* align-items: flex-start; */
+          }
+          
+          .inside-caption {
+            /* text-align: center; */
+            font-size:13px;
+          }
+          
+          .inside-caption {
+            /* font-size: 12px; */
+            height:30px;
+            margin-top: 0px;
+            /* font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 15px;
+            margin-left:12px;
+            margin-right:5px; */
+          }
+          
+          .inside-caption {
+            /* font-size: 14px; */
+            color: #238495;
+            text-decoration: none;
+            font-weight: 500;
+            /* margin-left: 5px;
+            margin-right: 5px; */
+          }
+          
+          .inside{
+            width:140px;
+            height:118px;
+            /* object-fit: cover; */
+          }
